@@ -3,6 +3,13 @@
 ImagePrep is a static React/Vite application. Cloudflare serves the built assets;
 image preparation runs locally in each visitor's browser.
 
+Live site: **https://imageprep.pages.dev/**. Initial deployment succeeded on
+2026-10-03 from commit `9e3bda6`. Chrome live checks confirmed sample WebP
+preparation (67 KB to 18 KB), original/prepared preview, and ZIP completion
+feedback, with no recorded browser warnings or errors. Download buttons were
+exercised; the browser automation could not independently confirm saved download
+files, so check those manually when testing the release.
+
 ## Git integration
 
 Connect the public `Christian-11a/imageprep` GitHub repository to a Cloudflare

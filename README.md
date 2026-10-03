@@ -4,6 +4,9 @@
 converting images individually or in small batches. Image contents stay on your
 device; no account or image-processing server is required.
 
+**[Use ImagePrep live](https://imageprep.pages.dev/)** ·
+[Source on GitHub](https://github.com/Christian-11a/imageprep)
+
 ![ImagePrep desktop workspace](docs/screenshots/workspace.png)
 
 ## Start on Windows
@@ -131,22 +134,16 @@ reduced-motion preferences, and needs no animation framework.
 
 See [the design notes](docs/DESIGN.md) for the visual system and interaction choices.
 
-## Free publication, when ready
+## Deployment
 
-This checkout has not been published. To publish it later:
+The public app is hosted at [imageprep.pages.dev](https://imageprep.pages.dev/)
+on Cloudflare Pages. Pushes to `main` automatically build and deploy updates.
+Build settings are documented in [DEPLOYMENT.md](docs/DEPLOYMENT.md).
+The separate Check workflow runs unit tests and the production build on pushes
+and pull requests. The manual GitHub Pages workflow is an unused alternative.
 
-1. Create a public GitHub repository and push this source.
-2. In **Settings → Pages**, choose **GitHub Actions** as the source.
-3. Run the manual **Publish to GitHub Pages** workflow in the Actions tab.
-4. Open the deployed address and verify processing and downloads.
-
-The workflow runs only when manually requested. The separate Check workflow runs
-unit tests and the production build on pushes and pull requests.
-
-GitHub Pages is free for public repositories, subject to its [usage limits](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits).
-Use the supplied hosting address to avoid a domain cost. No paid backend, storage,
-API, or service is required. Development tools or assistance can have their own
-costs independent of the app.
+No paid backend, storage, API, or purchased domain is required. Development tools
+or assistance can have their own costs independent of the app.
 
 ## Open source and portfolio
 
