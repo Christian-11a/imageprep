@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" role="img" aria-labelledby="scene-desert-title scene-desert-desc">
+  <title id="scene-desert-title">Quiet moonrise over the desert</title>
+  <desc id="scene-desert-desc">A small cream moon hangs in an apricot dusk above sculpted terracotta and rose dunes.</desc>
+  <defs>
+    <linearGradient id="desert-sky" x2="0" y2="1"><stop stop-color="#f4c9aa"/><stop offset=".52" stop-color="#ea967e"/><stop offset="1" stop-color="#bd6e68"/></linearGradient>
+    <linearGradient id="desert-dune-back" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#ce796d"/><stop offset="1" stop-color="#a94f53"/></linearGradient>
+    <linearGradient id="desert-dune-front" x1=".1" y1="0" x2=".75" y2="1"><stop stop-color="#e59a78"/><stop offset="1" stop-color="#b75e5a"/></linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#desert-sky)"/>
+  <path d="M0 226c98-45 182-50 269-23 90 28 173 19 331-39v94H0z" fill="#f3b18b" opacity=".36"/>
+  <circle cx="421" cy="125" r="34" fill="#fff0cb"/><circle cx="434" cy="114" r="34" fill="#e9957e"/>
+  <g fill="#fff0d6" opacity=".7"><circle cx="107" cy="97" r="2"/><circle cx="184" cy="146" r="1.5"/><circle cx="520" cy="196" r="2"/><circle cx="300" cy="90" r="1.5"/><circle cx="73" cy="175" r="1.5"/></g>
+  <path d="M0 287c87-10 151-73 222-74 66-1 106 53 178 59 68 6 135-35 200-48v226H0z" fill="url(#desert-dune-back)"/>
+  <path d="M0 332c89-26 148-22 223 5 85 31 158 27 229-16 55-33 103-41 148-34v166H0z" fill="#c96d61" opacity=".9"/>
+  <path d="M0 392c87-47 153-62 230-49 80 14 140 58 226 46 56-8 101-35 144-56v117H0z" fill="url(#desert-dune-front)"/><path d="M0 392c87-47 153-62 230-49 80 14 140 58 226 46 56-8 101-35 144-56" fill="none" stroke="#ffd0a7" stroke-width="3" stroke-opacity=".73"/>
+  <path d="M0 421c97-40 178-39 263-10 82 28 153 29 235 4 41-12 72-26 102-41v76H0z" fill="#954c50" opacity=".78"/>
+  <g fill="none" stroke="#f5b18b" stroke-linecap="round" stroke-opacity=".62"><path d="M61 347c49-17 85-20 128-11" stroke-width="2"/><path d="M351 318c49-10 92-30 129-54" stroke-width="2"/><path d="M214 411c37-4 66 2 93 12" stroke-width="2"/></g>
+  <path d="M0 0h600v450H0z" fill="none" stroke="#fff7e9" stroke-opacity=".16" stroke-width="2"/>
+</svg>
